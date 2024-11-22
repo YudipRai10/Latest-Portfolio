@@ -1,0 +1,16 @@
+.myproject-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+
+.myproject-container img {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.myproject-container img:hover {
+  transform: scale(1.1);
+  border: 2px solid #ff00ff;
+  transition: 0.3s;
+}

@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Ga+Maamli&family=Lobster&family=Reenie+Beanie&display=swap");
+
+.dancing-script-cursive {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.reenie-beanie-regular {
+  font-family: "Reenie Beanie", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ga-maamli-regular {
+  font-family: "Ga Maamli", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#titleName:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff;
+}
+
+#glow-button {
+  transition: 0.5s;
+}
+#glow-button:hover {
+  box-shadow: 0 0 25px #ff1867;
+}
+
+#glow-button::before {
+  content: "";
+  position: absolute;
+  inset: 2px;
+  background-color: #27282c;
+}
+
+#glow-button span {
+  position: relative;
+  z-index: 1;
+}
+
+#glow-button i {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+
+#glow-button i::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 2px;
+  background-color: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+
+#glow-button:hover i::before {
+  width: 20px;
+  left: 20%;
+}
+#glow-button i::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 2px;
+  background-color: #27282c;
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+
+#glow-button:hover i::after {
+  width: 20px;
+  left: 80%;
+}

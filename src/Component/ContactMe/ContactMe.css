@@ -1,0 +1,39 @@
+.contact-left h1 {
+  background: linear-gradient(270deg, #df8908 30%, #b415ff 60%, #dd4242 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.contact-right label {
+  color: #d8d8d8;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.contact-right input {
+  border: none;
+  width: 450px;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 4px;
+  background-color: #32323c;
+  color: #a0a0a0;
+  font-size: 20px;
+}
+
+.contact-submit {
+  border: none;
+  color: white;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
+  font-size: 22px;
+  padding: 10px 45px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.contact-submit:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
